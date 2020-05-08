@@ -1,0 +1,32 @@
+apply plugin: Plugins.androidLibrary
+apply from: "$rootDir/common.gradle"
+
+dependencies {
+    api CoreLibraries.kotlin
+
+    api SupportLibraries.core
+    api SupportLibraries.preference
+    api SupportLibraries.appCompat
+    api SupportLibraries.constraintLayout
+
+    api Libraries.koin
+    api Libraries.koinViewModel
+    api Libraries.koinScope
+
+    api Libraries.lifecycleViewModel
+    api Libraries.lifecycleExtensions
+    kapt Libraries.lifecycleCompiler
+
+    api Libraries.room
+    api Libraries.roomKtx
+    kapt Libraries.roomCompiler
+
+    api Libraries.okHttp
+    api Libraries.gson
+    api Libraries.paging
+
+    api Libraries.firebaseAnalytics
+    api Libraries.firebaseCrashlytics
+    api Libraries.firebaseAds
+    api Libraries.consent
+}

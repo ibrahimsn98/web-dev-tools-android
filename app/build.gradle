@@ -1,0 +1,22 @@
+apply plugin: Plugins.androidApplication
+apply from: "$rootDir/common.gradle"
+apply plugin: Plugins.crashlytics
+apply plugin: Plugins.googleServices
+
+android {
+    defaultConfig {
+        applicationId "me.ibrahimsn.wdevtools"
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation CoreLibraries.kotlin
+
+    implementation project(Modules.core)
+    implementation project(Modules.navigation)
+
+    implementation project(Modules.dashboard)
+    implementation project(Modules.request)
+    implementation project(Modules.websocket)
+}

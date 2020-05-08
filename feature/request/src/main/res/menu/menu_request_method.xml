@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/methodGet"
+        android:title="@string/method_get" />
+
+    <item
+        android:id="@+id/methodPost"
+        android:title="@string/method_post" />
+
+    <item
+        android:id="@+id/methodPut"
+        android:title="@string/method_put" />
+
+    <item
+        android:id="@+id/methodDelete"
+        android:title="@string/method_del" />
+
+    <item
+        android:id="@+id/methodPatch"
+        android:title="@string/method_patch" />
+
+</menu>

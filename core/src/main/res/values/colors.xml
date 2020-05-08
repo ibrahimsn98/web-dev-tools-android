@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#15171f</color>
+    <color name="colorPrimaryDark">#15171f</color>
+    <color name="colorAccent">#3eb63e</color>
+
+    <color name="colorPrimarySoft">#707593</color>
+
+    <color name="colorGet">#3eb63e</color>
+    <color name="colorPost">#f5a623</color>
+    <color name="colorPut">#4a90e2</color>
+    <color name="colorDelete">#ed4b48</color>
+    <color name="colorPatch">#9C27B0</color>
+
+    <color name="colorGetSoft">#0D3EB63E</color>
+    <color name="colorPostSoft">#0DF5A623</color>
+    <color name="colorPutSoft">#0D4A90E2</color>
+    <color name="colorDeleteSoft">#0DED4B48</color>
+    <color name="colorPatchSoft">#0C9C27B0</color>
+
+    <color name="colorBackground">#15171f</color>
+    <color name="colorBox">#1c1e28</color>
+
+    <color name="colorSuccess">#3eb63e</color>
+    <color name="colorFail">#ed4b48</color>
+
+    <color name="colorBackgroundSelected">#21212B</color>
+    <color name="colorTint">#606060</color>
+
+    <color name="white">#ffffff</color>
+    <color name="littleTransWhite">#80ffffff</color>
+    <color name="transWhite">#16ffffff</color>
+
+    <color name="colorPrimaryText">#f3f3f3</color>
+    <color name="colorSecondaryText">#acffffff</color>
+    <color name="colorMainText">#526d76</color>
+
+    <color name="colorEdge">#f51f1f29</color>
+
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:title="@string/pref_category_rest"
+        app:iconSpaceReserved="false">
+
+        <SwitchPreference
+            android:key="key_follow_redirect"
+            android:title="@string/pref_title_follow_redirect"
+            android:summary="@string/pref_desc_follow_redirect"
+            android:defaultValue="true"
+            app:iconSpaceReserved="false"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/pref_category_legal"
+        app:iconSpaceReserved="false">
+
+        <SwitchPreference
+            android:key="key_consent_status_value"
+            android:title="@string/pref_title_consent"
+            android:summary="@string/pref_desc_consent"
+            app:iconSpaceReserved="false"/>
+
+        <Preference
+            android:key="key_privacy_policy"
+            android:title="@string/pref_title_privacy_policy"
+            android:summary="@string/pref_desc_privacy_policy"
+            app:iconSpaceReserved="false"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/pref_category_about"
+        app:iconSpaceReserved="false">
+
+        <Preference
+            android:title="@string/pref_title_about"
+            android:summary="@string/pref_desc_about"
+            app:iconSpaceReserved="false"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

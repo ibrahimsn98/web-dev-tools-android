@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="TabView">
+        <attr name="menu" format="reference" />
+        <attr name="itemMargin" format="dimension" />
+        <attr name="itemPaddingVertical" format="dimension" />
+        <attr name="itemPaddingHorizontal" format="dimension" />
+        <attr name="textColor" format="color" />
+        <attr name="textColorActive" format="color" />
+        <attr name="textSize" format="dimension" />
+        <attr name="textFontFamily" format="reference" />
+        <attr name="indicatorColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="ProgressButton">
+        <attr name="icon" format="reference" />
+        <attr name="reverseIcon" format="reference" />
+        <attr name="iconSize" format="dimension" />
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,7 @@
+apply plugin: Plugins.androidLibrary
+apply from: "$rootDir/common.gradle"
+
+dependencies {
+    implementation(project(Modules.core))
+    implementation(project(Modules.navigation))
+}

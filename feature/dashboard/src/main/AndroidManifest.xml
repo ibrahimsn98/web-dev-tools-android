@@ -1,0 +1,16 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="me.ibrahimsn.dashboard">
+
+    <application>
+
+        <activity
+            android:name=".presentation.home.HomeActivity"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".presentation.settings.SettingsActivity"
+            android:theme="@style/AppTheme" />
+
+    </application>
+
+</manifest>

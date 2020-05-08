@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/requests"
+        android:title="@string/tab_requests" />
+
+    <item
+        android:id="@+id/websockets"
+        android:title="@string/tab_websockets" />
+
+</menu>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/nav_graph"
+    app:startDestination="@id/dashboardFragment">
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="me.ibrahimsn.dashboard.presentation.dashboard.DashboardFragment"
+        android:label="@string/title_dashboard" >
+        <action
+            android:id="@+id/action_dashboardFragment_to_requestFragment"
+            app:destination="@id/requestFragment">
+            <argument
+                android:name="request"
+                app:argType="android.os.Parcelable" />
+        </action>
+
+        <action
+            android:id="@+id/action_dashboardFragment_to_websocketFragment"
+            app:destination="@id/websocketFragment">
+            <argument
+                android:name="websocket"
+                app:argType="android.os.Parcelable" />
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/requestFragment"
+        android:name="me.ibrahimsn.request.presentation.request.RequestFragment"
+        android:label="@string/title_request" />
+
+    <fragment
+        android:id="@+id/websocketFragment"
+        android:name="me.ibrahimsn.websocket.presentation.websocket.WebsocketFragment"
+        android:label="@string/title_websocket" />
+
+</navigation>

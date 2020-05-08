@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="error_invalid_params">Invalid parameters</string>
+    <string name="error_empty_uri">Empty Uri</string>
+    <string name="error_empty_request_body">Empty request body</string>
+    <string name="error_network">Network error</string>
+    <string name="error_invalid_uri">Invalid Uri</string>
+
+    <string name="box_title_query_params">Query Params</string>
+    <string name="box_title_header_params">Header Params</string>
+    <string name="box_title_body_params">Body Params</string>
+    <string name="box_title_body">Response</string>
+    <string name="box_title_response">Response</string>
+
+    <string name="hint_websocket_body">Enter body data…</string>
+    <string name="hint_param_key">Key</string>
+    <string name="hint_param_value">Value</string>
+    <string name="hint_request_uri">https://api.server.com</string>
+    <string name="hint_websocket_uri">wss://socket.server.com</string>
+
+    <string name="button_add">Add</string>
+    <string name="button_new">New</string>
+    <string name="button_clear_body">Clear</string>
+    <string name="button_clear_response">Clear</string>
+    <string name="button_send_body">Send</string>
+
+    <string name="menu_delete">Delete</string>
+    <string name="menu_settings">Settings</string>
+
+    <string name="tab_requests">Requests</string>
+    <string name="tab_websockets">Websockets</string>
+
+    <string name="label_websocket_row">WS</string>
+
+    <string name="method_get" translatable="false">GET</string>
+    <string name="method_post" translatable="false">POST</string>
+    <string name="method_put" translatable="false">PUT</string>
+    <string name="method_del" translatable="false">DEL</string>
+    <string name="method_patch" translatable="false">PATCH</string>
+</resources>

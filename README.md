@@ -1,6 +1,6 @@
 # Web Developer Tools Android
 
-An example Android app with MVVM, clean architecture, modularization, repository pattern
+Sample Android Application - MVVM, Clean Architecture, Modularization, Repository Pattern
 
 
 ## Tech Stack

@@ -1,6 +1,6 @@
 # Web Developer Tools Android
 
-A lightweight HTTP Rest API, Websocket Test Client
+An example Android app with MVVM, clean architecture, modularization, repository pattern
 
 
 ## Tech Stack
